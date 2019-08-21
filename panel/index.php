@@ -20,4 +20,4 @@ define( 'ABSPATH', dirname( __FILE__ ) . '/wordpress/' );
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wp-content' );
 
 /** Loads the WordPress Environment and Template */
-require( ABSPATH . '/wp-blog-header.php' );
+require( ABSPATH . 'wp-blog-header.php' );
