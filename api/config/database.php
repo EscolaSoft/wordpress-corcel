@@ -56,6 +56,19 @@ return [
             'engine' => null,
         ],
 
+        'wordpress' => [ // for WordPress database (used by Corcel)
+            'driver'    => 'mysql',
+            'host'      => env('DB_HOST_WORDPRESS', 'db'),
+            'database'  => env('DB_DATABASE_WORDPRESS', 'wordpress'),
+            'username'  => env('DB_USERNAME_WORDPRESS', 'wordpress'),
+            'password'  => env('DB_PASSWORD_WORDPRESS', 'wordpress'),
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => 'wp_',
+            'strict'    => false,
+            'engine'    => null,
+        ],
+
         'pgsql' => [
             'driver' => 'pgsql',
             'host' => env('DB_HOST', '127.0.0.1'),
