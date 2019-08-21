@@ -6,7 +6,7 @@ services:
     image: wordpress
     restart: always
     ports:
-      - 3000:80
+      - 80:80
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: wordpress
@@ -34,9 +34,9 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: 123456
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
-      MYSQL_DATABASE: database
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+      MYSQL_DATABASE: wordpress
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     environment:
