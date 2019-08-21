@@ -4,9 +4,8 @@ wget http://wordpress.org/latest.tar.gz
 
 tar xfz latest.tar.gz
 
-mkdir panel/WordPress
 
-mv wordpress/* ./panel/WordPress
+mv wordpress/* ./panel/wordpress
 ```
 
 # Install local Laravel
