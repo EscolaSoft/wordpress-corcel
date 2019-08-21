@@ -1,5 +1,7 @@
-
-
+# Create project 
+```
+composer create-project -s dev qunabu/wordpress-corcel PROJECT_NAME
+```
 # Install Wordpress
 ```
 wget http://wordpress.org/latest.tar.gz
