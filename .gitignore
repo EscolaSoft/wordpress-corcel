@@ -18,6 +18,7 @@ api/.env
 sitemap.*
 *.log
 .idea
+.idea/vcs.xml
 
 # Wordfence cache
 panel/wp-content/plugins/wordfence/tmp/
