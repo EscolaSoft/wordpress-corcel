@@ -1,0 +1,44 @@
+# Wordpress
+panel/wordpress/
+panel/wp-content/backup/
+panel/wp-content/backups/
+panel/wp-content/backup-db/
+panel/wp-content/blogs.dir/
+panel/wp-content/cache/
+panel/wp-content/upgrade/
+panel/wp-content/uploads/
+panel/wp-config.php
+api/node_modules
+api/public/hot
+api/public/storage
+api/storage/*.key
+api/composer.lock
+api/vendor
+api/.env
+sitemap.*
+*.log
+.idea
+
+# Wordfence cache
+panel/wp-content/plugins/wordfence/tmp/
+panel/wp-content/wfcache/
+panel/wp-content/wflogs/
+
+#BRP image cache
+panel/wp-content/brpimgcache/
+
+# include these from previously blocked dirs
+!panel/wp-content/uploads/.htaccess
+
+# temp files
+*~
+*.bak
+*.swp
+
+
+# OS junk
+Thumbs.db
+*.DS_Store
+*.Trashes
+
+latest.tar.gz
